@@ -1,9 +1,8 @@
-import React from "react"
-import styled from "styled-components/macro"
-import HomeIcon from "@material-ui/icons/Home"
-import EmailIcon from "@material-ui/icons/Email"
-import PhoneAndroidIcon from "@material-ui/icons/PhoneAndroid"
-import { red } from "@material-ui/core/colors"
+import React from "react";
+import styled from "styled-components/macro";
+import HomeIcon from "@material-ui/icons/Home";
+import EmailIcon from "@material-ui/icons/Email";
+import PhoneAndroidIcon from "@material-ui/icons/PhoneAndroid";
 
 function Contact() {
   return (
@@ -67,10 +66,10 @@ function Contact() {
         </ContactFormContainer>
       </ContactContentContainer>
     </ContactContainer>
-  )
+  );
 }
 
-export default Contact
+export default Contact;
 
 const ContactContainer = styled.div`
   width: 100%;
@@ -78,7 +77,7 @@ const ContactContainer = styled.div`
   display: grid;
   justify-items: center;
   background-color: #f2f6ff;
-`
+`;
 
 const ContactContentContainer = styled.div`
   width: 66.66%;
@@ -87,20 +86,20 @@ const ContactContentContainer = styled.div`
   /* align-content: center; */
   justify-content: stretch;
   align-content: flex-start;
-`
+`;
 const ContactHeader = styled.div`
   display: grid;
   row-gap: 44px;
   width: 100%;
-`
+`;
 const ContactTitle = styled.div`
   font-family: Spartan, sans-serif;
   font-size: 32px;
   line-height: 36px;
   font-weight: 700;
   text-transform: none;
-`
-const ContactParagraph = styled.div``
+`;
+const ContactParagraph = styled.div``;
 
 const ContactFormContainer = styled.div`
   background-color: #fff;
@@ -112,7 +111,7 @@ const ContactFormContainer = styled.div`
   :hover {
     box-shadow: 7px 7px 40px 10px rgb(55 51 128 / 20%);
   }
-`
+`;
 
 const ContactForm = styled.form`
   width: 100%;
@@ -120,7 +119,7 @@ const ContactForm = styled.form`
   display: grid;
   row-gap: 30px;
   justify-content: stretch;
-`
+`;
 
 const ContactFormTitle = styled.div`
   font-family: Spartan, sans-serif;
@@ -128,11 +127,11 @@ const ContactFormTitle = styled.div`
   line-height: 30px;
   font-weight: 700;
   text-transform: none;
-`
+`;
 
 const ContactFormItemContainer = styled.div`
   width: 100%;
-`
+`;
 
 const ContactFormLabel = styled.div`
   font-family: Spartan, sans-serif;
@@ -142,7 +141,7 @@ const ContactFormLabel = styled.div`
   line-height: 16px;
   font-weight: 600;
   text-align: left;
-`
+`;
 const ContactFormInput = styled.input`
   display: block;
   width: 100%;
@@ -160,7 +159,7 @@ const ContactFormInput = styled.input`
     border-color: #6b66cc;
     background-color: #f8f7ff;
   }
-`
+`;
 
 const ContactFormSubmit = styled.button`
   background: #aea9f1;
@@ -176,14 +175,14 @@ const ContactFormSubmit = styled.button`
     font-size: 18px;
     background: #7f76f9;
   }
-`
+`;
 
 const ContactInformation = styled.div`
   align-self: center;
   justify-self: start;
   display: grid;
   row-gap: 44px;
-`
+`;
 
 const ContactItem = styled.div`
   display: grid;
@@ -191,7 +190,7 @@ const ContactItem = styled.div`
   align-items: center;
   justify-content: start;
   column-gap: 20px;
-`
+`;
 
 // const ContactIcon = styled.div``
 
@@ -199,4 +198,4 @@ const ContactText = styled.div`
   font-family: "Nunito Sans", sans-serif;
   font-size: 16px;
   letter-spacing: 1.5px;
-`
+`;

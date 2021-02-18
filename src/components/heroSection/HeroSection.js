@@ -1,6 +1,6 @@
-import React from "react"
-import styled from "styled-components/macro"
-import { Link as LinkScroll } from "react-scroll"
+import React from "react";
+import styled from "styled-components/macro";
+import { Link as LinkScroll } from "react-scroll";
 
 function HeroSection() {
   return (
@@ -43,10 +43,10 @@ function HeroSection() {
         </HeroTextContainer>
       </HeroSectionBody>
     </HeroSectionContainer>
-  )
+  );
 }
 
-export default HeroSection
+export default HeroSection;
 
 const HeroSectionContainer = styled.div`
   width: 100%;
@@ -56,7 +56,7 @@ const HeroSectionContainer = styled.div`
   /* align-items: center; */
   justify-content: center;
   /* background-color: green; */
-`
+`;
 
 const HeroSectionBody = styled.div`
   /* position: absolute; */
@@ -72,16 +72,16 @@ const HeroSectionBody = styled.div`
   @media (max-width: 450px) {
     grid-template-columns: auto;
   }
-`
+`;
 
-const HeroImage = styled.img``
+const HeroImage = styled.img``;
 
 const HeroTextContainer = styled.div`
   margin-left: 36px;
   margin-right: 36px;
   display: grid;
   gap: 20px;
-`
+`;
 
 const HeroTextHeader = styled.h1`
   font-style: normal;
@@ -92,7 +92,7 @@ const HeroTextHeader = styled.h1`
   align-items: center;
 
   color: rgba(0, 0, 0, 0.8);
-`
+`;
 
 const HeroTextBody = styled.p`
   /* margin-top: 15px; */
@@ -108,18 +108,14 @@ const HeroTextBody = styled.p`
   align-items: center;
 
   color: rgba(0, 0, 0, 0.8);
-`
+`;
 
 const HeroButtonContainer = styled.div`
   display: grid;
   grid-template-columns: 140px 140px;
   gap: 20px;
   margin-top: 20px;
-`
-
-const HeroButtonAbout = styled.button`
-  border: 0;
-`
+`;
 
 const HeroLinkAbout = styled(LinkScroll)`
   background: #aea9f1;
@@ -137,7 +133,7 @@ const HeroLinkAbout = styled(LinkScroll)`
     background: #7f76f9;
     box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.2);
   }
-`
+`;
 
 const HeroLinkContact = styled(LinkScroll)`
   background: #ffffff;
@@ -157,4 +153,4 @@ const HeroLinkContact = styled(LinkScroll)`
     box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.2);
     color: #7f76f9;
   }
-`
+`;

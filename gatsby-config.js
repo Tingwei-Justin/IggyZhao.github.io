@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: "/portfolio",
+  pathPrefix: "/",
 
   siteMetadata: {
     title: `Iggy Zhao`,
@@ -8,6 +8,7 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -33,4 +34,4 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
   ],
-}
+};
